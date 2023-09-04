@@ -31,12 +31,12 @@ yarn add @adiwajshing/baileys
 
 Use the edge version (no guarantee of stability, but latest fixes + features)
 ```
-yarn add github:adiwajshing/baileys
+yarn add github:azharding/baileys
 ```
 
 Then import your code using:
 ``` ts 
-import makeWASocket from '@adiwajshing/baileys'
+import makeWASocket from '@azharding/baileys'
 ```
 
 ## Unit Tests
@@ -46,7 +46,7 @@ TODO
 ## Connecting
 
 ``` ts
-import makeWASocket, { DisconnectReason } from '@adiwajshing/baileys'
+import makeWASocket, { DisconnectReason } from '@azharding/baileys'
 import { Boom } from '@hapi/boom'
 
 async function connectToWhatsApp () {
